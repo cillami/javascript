@@ -1,21 +1,28 @@
 var myDiv = document.createElement("div");
 
+document.body.appendChild(myDiv);
+
 var myParagraf = document.createElement("p");
+
+myDiv.appendChild(myParagraf);
 
 var myTextNode = document.createTextNode("Satan i gatan vad kul Javascript är!");
 
 myParagraf.appendChild(myTextNode);
 
-myDiv.appendChild(myParagraf);
+// document.body.appendChild(myDiv);
 
-document.body.appendChild(myDiv);
+// myDiv.appendChild(myParagraf);
+
+// myParagraf.appendChild(myTextNode);
+
 
 myParagraf.id = "minPtagg"; 
 
 var p = document.getElementById("minPtagg");
 
-minPtagg.innerHTML = "Satan vad tråkigt Javascript är!";
+p.innerHTML = "Satan vad tråkigt Javascript är!";
 
-minPtagg.style.color= "blue";
+p.style.color= "blue";
 
 
