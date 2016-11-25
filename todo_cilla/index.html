@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo-app</title>
+    <link rel="stylesheet" type="text/css" href="main_todo.css">
+</head>
+	<body>
+	  
+		<div class="flex-container">
+
+		<div class="mydiv" id="main">
+		  	<h2>🦄 My To Do List</h2>
+		 	<label for="add"><h4>Add a task</h4></label>
+		 	<input type="text" id="myText" maxlength="43" placeholder="Write something...">
+		  	<button id="add" onclick="add()">Add it</button>
+		</div>
+
+		<div id="todo">
+			<h3>What to do?</h3>
+			<ul id="myList"></ul>
+		</div>
+
+		<div class="secondList" id="completed">
+		  <h3>Task completed!</h3>
+		  <ul class="second" id="myCompletedList"></ul>
+		</div>  
+
+		</div> 
+	 
+	<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
+
+

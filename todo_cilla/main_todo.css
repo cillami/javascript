@@ -1,0 +1,42 @@
+body{
+	padding:20px;
+	width:60%;
+	font-family: sans-serif;
+	background-color: lightgrey;
+	font-family: "Courier New", Courier, monospace;
+}
+
+div{
+	padding: 15px;
+	border: 1px solid white;
+}
+
+ul li button{
+	margin-left:30px;
+	float: right;
+}
+
+.flex-container{
+
+	background-color: lightblue;
+}
+
+.secondList li{
+	text-decoration: line-through;
+}
+ 
+
+#todo{
+	background-color: lightgreen;
+	border: 1px solid white;
+}
+
+#completed{
+	background-color: lightpink;
+	border: 1px solid white;
+}
+ 
+#mydiv{
+
+	padding: 15px;
+}
